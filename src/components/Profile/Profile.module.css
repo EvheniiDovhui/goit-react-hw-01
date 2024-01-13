@@ -7,12 +7,15 @@
   border-radius: 20px;
   padding: 20px;
   max-width: 300px;
-  margin: auto;
+  margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .description {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar {
@@ -27,8 +30,15 @@
   font-weight: bold;
   margin-bottom: 5px;
 }
+.icon {
+  width: 28px;
+  height: 28px;
+  fill: #4caf50;
+}
 
 .tag {
+  display: flex;
+  align-items: center;
   color: #808080;
   margin: 5px 0;
 }

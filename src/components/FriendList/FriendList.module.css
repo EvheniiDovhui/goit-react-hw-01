@@ -2,12 +2,12 @@ ul {
   list-style: none;
 }
 
-.friend-list {
+.list {
   display: flex;
   gap: 12px;
 }
 
-.friend-item {
+.item {
   width: 88px;
   display: flex;
   flex-direction: column;
@@ -17,14 +17,14 @@ ul {
   border-radius: 8px;
   padding: 8px;
 }
-.friend-name {
+.name {
   color: #000000;
   font-size: 18px;
   font-weight: bold;
 }
-.online {
+.isOnline {
   color: green;
 }
-.offline {
+.isOffline {
   color: red;
 }

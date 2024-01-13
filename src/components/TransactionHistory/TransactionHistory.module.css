@@ -1,25 +1,25 @@
-.transaction-history {
+.transactionHistory {
   width: 100%;
   border-collapse: collapse;
   margin: 20px auto;
 }
 
-.transaction-history th,
-.transaction-history td {
+.transactionHistory th,
+.transactionHistory td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
 }
 
-.transaction-history th {
+.transactionHistory th {
   background-color: #f2f2f2;
 }
 
-.transaction-history tbody tr:nth-child(even) {
+.transactionHistory tbody tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-.transaction-history tbody tr:hover {
+.transactionHistory tbody tr:hover {
   background-color: #e6f7ff;
   cursor: pointer;
 }
